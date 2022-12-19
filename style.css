@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.home {
+  background-image: url(e1.jpg);
+  background-size: cover;
+}
+
+.profil {
+  background-image: url(d2.jpg);
+  background-size: cover;
+}
+
+.visi {
+  background-image: url(b2.jpg);
+  background-size: cover;
+}
+
+body.contact {
+  background-image: url(d3.jpg);
+  background-size: cover;
+}
+
+body.daftar {
+  background-image: url(d4.jpg);
+  background-size: cover;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  position: relative;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+header .nav a {
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+header .nav a:not(:last-child) {
+  margin-right: 30px;
+}
+
+header .nav a:hover {
+  background: #fff;
+}
+
+.container {
+  max-width: 840px;
+  margin: 80px 120px;
+}
+
+.container .info h1 {
+  font-size: 55px;
+  color: rgb(255, 255, 0);
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.container .info h1 span {
+  color: rgb(255, 161, 9);
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.container .info p {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: rgb(2, 23, 255);
+}
+
+.sosmed .contact p {
+  font-size: 16px;
+  font-weight: 500px;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.sosmed .contact b {
+  color: blue;
+}
+
+button.gradient {
+  background-image: linear-gradient(rgb(62, 254, 45), rgb(255, 243, 6));
+  color: #fff;
+}
+
+.panel.heading p {
+  font-size: 16px;
+  font-weight: 500px;
+  color: rgb(0, 0, 0);
+}
+
+.panel b {
+  color: rgb(4, 33, 255);
+}
+
+strong {
+  color: blue;
+}
+
+.container-panel {
+  max-width: 700px;
+  margin: 0px 10px;
+}
+
+.regis table {
+  background-image: url(c1.jpg);
+  position: relative;
+  margin: 60px 10px;
+  top: -20px;
+  text-align: left;
+  color: rgb(0, 8, 255);
+  font-style: italic;
+  width: 400px;
+  height: 240px;
+}
+
+.regis {
+  margin-top: 35px;
+  margin-bottom: 45px;
+  padding: 70px 70px;
+  border-radius: 10px;
+  width: 600px;
+  height: 540px;
+  background: linear-gradient(rgb(0, 238, 255), rgb(0, 255, 64));
+}
+
+.regis1 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding: 70px 70px;
+  border-radius: 10px;
+  width: 600px;
+  height: 540px;
+  background: linear-gradient(rgb(0, 238, 255), rgb(0, 255, 64));
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding: 10px 10px;
+  background-color: aquamarine;
+  box-shadow: rgb(0, 255, 255);
+}

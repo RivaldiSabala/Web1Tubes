@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tubes Pemrograman Web 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="daftar">
+    <section>
+        <div class="navbar">
+            <header>
+                <img src="SPgm.png" width="50px" height="60px"></a>
+                <h2>SMAN 1 PAGIMANA</h2>
+                <div class="nav">
+                    <a href="index.html">Home</a> |
+                    <a href="v&m.html">Visi Misi</a> |
+                    <a href="profil.html">Profil Sekolah</a> |
+                    <a href="daftar.html">Pendaftaran</a> |
+                    <a href="kontak.html">Kontak</a>
+                </div>
+            </header>
+        </div>
+        <hr>
+        <br>
+        <center>
+            <div class="regis">
+                <div class="container-panel">
+                    <h1>PENDAFTARAN SISWA BARU</h1>
+                </div>
+                <form>
+                    <table border="3">
+                        <tr>
+                            <td>Nama Lengkap</td>
+                            <td>:</td>
+                            <td><input type="text" name="Lengkap" id="username" /></td>
+                        </tr>
+                        <tr>
+                            <td>Nama Panggilan</td>
+                            <td>:</td>
+                            <td><input type="text" name="Panggilan" id="name" /></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>:</td>
+                            <td><input type="text" name="Alamat" id="alamat" /></td>
+                        </tr>
+                        <tr>
+                            <td>Tempat Lahir</td>
+                            <td>:</td>
+                            <td><input type="text" name="TempatLahir" id="tl" /></td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Lahir</td>
+                            <td>:</td>
+                            <td><input type="date" name="TanggalLahir" id="date" /></td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td><input type="radio" name="JK" value="L" id="L" />Laki-Laki
+                                <input type="radio" name="JK" value="P" id="P" />Perempuan
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Agama</td>
+                            <td>:</td>
+                            <td><select name="agama">
+                                    <option value='islam'>Islam</option>
+                                    <option value='kristen'>Kristen</option>
+                                    <option value='katholik'>Katholik</option>
+                                    <option value='hindu'>Hindu</option>
+                                    <option value='kristen'>Budha</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>Foto</td>
+                            <td>:</td>
+                            <td><input type="file" name="gambar" id="gbr" </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <input type="button" value="Simpan" class="tombol" onclick="validasi()">
+                                <input type="reset" value="Reset" class="tombol">
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </center>
+        <script src="daftar.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
